@@ -36,7 +36,7 @@ public final class Constants {
      * Constants for Firebase URL
      */
 
-    public static final String FIREBASE_URL = "https://brilliant-fire-2764.firebaseio.com/";
+    public static final String FIREBASE_URL = "Your ip";
     public static final String FIREBASE_URL_SHOPPING_LIST_ITEMS = FIREBASE_URL + "/" + FIREBASE_LOCATION_SHOPPING_LIST_ITEMS;
     public static final String FIREBASE_URL_USERS = FIREBASE_URL + "/" + FIREBASE_LOCATION_USERS;
     public static final String FIREBASE_URL_USER_LISTS = FIREBASE_URL + "/" + FIREBASE_LOCATION_USER_LISTS;
@@ -66,12 +66,6 @@ public final class Constants {
     public static final String GOOGLE_PROVIDER = "google";
     public static final String PROVIDER_DATA_DISPLAY_NAME = "displayName";
 
-
-    /**
-     * Constant for sorting
-     */
-    public static final String ORDER_BY_KEY = "orderByPushKey";
-    public static final String ORDER_BY_OWNER_EMAIL = "orderByOwnerEmail";
 
 
 

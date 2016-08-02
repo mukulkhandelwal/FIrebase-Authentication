@@ -72,7 +72,7 @@ public class LoginActivity extends BaseActivity {
         setContentView(R.layout.activity_login);
         mSharedPref = PreferenceManager.getDefaultSharedPreferences(this);
         mSharedPrefEditor = mSharedPref.edit();
-
+        Firebase.setAndroidContext(this);
         /**
          * Create Firebase references
          */

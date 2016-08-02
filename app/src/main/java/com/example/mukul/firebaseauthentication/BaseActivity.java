@@ -126,9 +126,9 @@ public abstract class BaseActivity extends AppCompatActivity implements
          * Set different background image for landscape and portrait layouts
          */
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            linearLayout.setBackgroundResource(R.drawable.background_loginscreen_land);
+         //   linearLayout.setBackgroundResource(R.drawable.background_loginscreen_land);
         } else {
-            linearLayout.setBackgroundResource(R.drawable.background_loginscreen);
+           // linearLayout.setBackgroundResource(R.drawable.background_loginscreen);
         }
     }
 
