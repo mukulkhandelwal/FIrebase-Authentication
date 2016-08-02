@@ -10,11 +10,12 @@ public final class Constants {
      * Constants related to locations in Firebase, such as the name of the node
      * where user lists are stored (ie "userLists")
      */
-    public static final String FIREBASE_LOCATION_SHOPPING_LIST_ITEMS = "Your app name";
+    public static final String FIREBASE_LOCATION_SHOPPING_LIST_ITEMS = "Your ";
     public static final String FIREBASE_LOCATION_USERS = "users";
     public static final String FIREBASE_LOCATION_USER_LISTS = "userLists";
     public static final String FIREBASE_LOCATION_USER_FRIENDS = "userFriends";
-
+    public static final String FIREBASE_LOCATION_UID_MAPPINGS = "uidMappings";
+    public static final String FIREBASE_LOCATION_OWNER_MAPPINGS = "ownerMappings";
 
 
     /**
@@ -29,7 +30,6 @@ public final class Constants {
     public static final String FIREBASE_PROPERTY_EMAIL = "email";
     public static final String FIREBASE_PROPERTY_USERS_SHOPPING = "usersShopping";
     public static final String FIREBASE_PROPERTY_USER_HAS_LOGGED_IN_WITH_PASSWORD = "hasLoggedInWithPassword";
-    public static final String FIREBASE_PROPERTY_TIMESTAMP_LAST_CHANGED_REVERSE = "timestampLastChangedReverse";
 
 
     /**
@@ -39,6 +39,8 @@ public final class Constants {
     public static final String FIREBASE_URL = "https://brilliant-fire-2764.firebaseio.com/";
     public static final String FIREBASE_URL_SHOPPING_LIST_ITEMS = FIREBASE_URL + "/" + FIREBASE_LOCATION_SHOPPING_LIST_ITEMS;
     public static final String FIREBASE_URL_USERS = FIREBASE_URL + "/" + FIREBASE_LOCATION_USERS;
+    public static final String FIREBASE_URL_USER_LISTS = FIREBASE_URL + "/" + FIREBASE_LOCATION_USER_LISTS;
+    public static final String FIREBASE_URL_USER_FRIENDS = FIREBASE_URL + "/" + FIREBASE_LOCATION_USER_FRIENDS;
 
     /**
      * Constants for bundles, extras and shared preferences keys
@@ -64,6 +66,12 @@ public final class Constants {
     public static final String GOOGLE_PROVIDER = "google";
     public static final String PROVIDER_DATA_DISPLAY_NAME = "displayName";
 
+
+    /**
+     * Constant for sorting
+     */
+    public static final String ORDER_BY_KEY = "orderByPushKey";
+    public static final String ORDER_BY_OWNER_EMAIL = "orderByOwnerEmail";
 
 
 
