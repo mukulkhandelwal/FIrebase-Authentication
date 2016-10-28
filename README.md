@@ -1,7 +1,7 @@
 # FIrebase-Authentication
 
-1-Create Firebase Account .
-2- Make your first app in firebase dashboard
+1-Create Firebase Account.
+2- Make your first app in firebase dashboard.
 3- paste your link into Constants.java at FIREBASE_URL.
 4-Run the app in your Mobile.
 
